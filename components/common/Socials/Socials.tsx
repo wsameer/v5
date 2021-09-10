@@ -25,7 +25,7 @@ export const Socials: React.FC = React.memo(() => {
         {
             id: 4,
             logo: <Twitter size={20} />,
-            url: 'https://twitter.com/thesavagelens',
+            url: 'https://twitter.com/SameerWaskar',
             label: 'Twitter'
         }
     ];
