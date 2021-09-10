@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-    reactStrictMode: true
+    reactStrictMode: true,
+    images: {
+        domains: ['medly.com', 'www.securly.com', 'www.google.com']
+    }
 };

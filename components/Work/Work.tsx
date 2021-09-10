@@ -4,6 +4,8 @@ import React from 'react';
 import ProjectDetails from './ProjectDetails';
 import type { ProjectDescProps, ProjectLink } from './ProjectDetails/types';
 import Image from 'next/image';
+import p1 from '/img/octoprofile-plus.png';
+import p2 from '/img/reakt-dashboard-image.png';
 
 export const Work: React.FC = () => {
     const projectOne: ProjectDescProps = {
@@ -24,7 +26,7 @@ export const Work: React.FC = () => {
     return (
         <div className="mx-auto p-6 md:px-10 md:py-12">
             <SectionTitle>
-                <span>Some things I've built</span>
+                <span>Some things I&apos;ve built</span>
             </SectionTitle>
             <FeaturedProject
                 leftContent={
@@ -43,7 +45,7 @@ export const Work: React.FC = () => {
                         className="hidden md:block"
                     >
                         <Image
-                            src="./img/octoprofile-plus.png"
+                            src={p1}
                             alt="Octo Profile Plus Image"
                             className="shadow-7xl opacity-60 hover:opacity-100 hidden lg:block"
                             loading="lazy"
@@ -61,7 +63,7 @@ export const Work: React.FC = () => {
                         className="hidden md:block"
                     >
                         <Image
-                            src="./img/reakt-dashboard-image.png"
+                            src={p2}
                             alt="Reakt Dashboard Image"
                             className="shadow-7xl opacity-60 hover:opacity-100 hidden lg:block"
                             loading="lazy"

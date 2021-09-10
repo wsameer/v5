@@ -38,7 +38,7 @@ export const App: React.FC = () => {
 
     useEffect(() => {
         sectionsRef.current = sectionsRef.current.slice(0, sections.length);
-    }, [sections]);
+    }, [sections.length]);
 
     return (
         <div className="ml-0 md:ml-72 lg:ml-80 flex flex-col">

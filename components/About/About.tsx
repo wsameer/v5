@@ -69,7 +69,8 @@ export const About: React.FC = () => {
                 to digitalize their pharmacy experience.
             </p>
             <p className="mb-2 text-base md:text-lg">
-                Here are a few technologies I've been working with recently:
+                Here are a few technologies I&apos;ve been working with
+                recently:
             </p>
             <div>
                 <ul className="grid grid-cols-2 list-disc list-inside">

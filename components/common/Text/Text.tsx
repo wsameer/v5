@@ -6,3 +6,5 @@ export const Text: React.FC<TextProps> = React.memo(
         return <p className={`${className}`}>{children}</p>;
     }
 );
+
+Text.displayName = 'Text';

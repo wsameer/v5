@@ -5,16 +5,16 @@ export const Contact: React.FC = () => {
     return (
         <div className="mx-auto p-6 md:px-10 md:py-12">
             <SectionTitle>
-                <span>Let's Build Something Together</span>
+                <span>Let&apos;s Build Something Together</span>
             </SectionTitle>
             <div className="flex flex-col my-16 flex justify-left">
                 <p className="w-ful md:w-2/3 text-left">
-                    Feel free to reach out if you're looking for a developer,
+                    Feel free to reach out if you&apos;re looking for a developer,
                     have a question, want consultation on your project, grab a
                     coffee, or just want to say hi.
                 </p>
                 <p className="w-ful md:w-2/3 text-left">
-                    I'll try my best to get back to you!
+                    I&apos;ll try my best to get back to you!
                 </p>
             </div>
             <div className="flex justify-center md:justify-start">

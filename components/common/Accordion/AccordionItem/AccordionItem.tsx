@@ -19,3 +19,5 @@ export const AccordionItem: React.FC<AccordionItemProps> = React.memo(
         );
     }
 );
+
+AccordionItem.displayName = 'AccordionItem';
