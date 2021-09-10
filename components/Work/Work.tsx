@@ -3,6 +3,7 @@ import SectionTitle from '@components/common/SectionTitle';
 import React from 'react';
 import ProjectDetails from './ProjectDetails';
 import type { ProjectDescProps, ProjectLink } from './ProjectDetails/types';
+import Image from 'next/image';
 
 export const Work: React.FC = () => {
     const projectOne: ProjectDescProps = {
@@ -41,7 +42,7 @@ export const Work: React.FC = () => {
                         rel="noreferrer"
                         className="hidden md:block"
                     >
-                        <img
+                        <Image
                             src="./img/octoprofile-plus.png"
                             alt="Octo Profile Plus Image"
                             className="shadow-7xl opacity-60 hover:opacity-100 hidden lg:block"
@@ -59,7 +60,7 @@ export const Work: React.FC = () => {
                         rel="noreferrer"
                         className="hidden md:block"
                     >
-                        <img
+                        <Image
                             src="./img/reakt-dashboard-image.png"
                             alt="Reakt Dashboard Image"
                             className="shadow-7xl opacity-60 hover:opacity-100 hidden lg:block"

@@ -1,11 +1,12 @@
 import React from 'react';
 import type { AvatarProps } from './types';
+import Image from 'next/image';
 
 export const Avatar: React.FC<AvatarProps> = React.memo(
     ({ srcFile, width, bgColor }) => {
         return (
             <div className="flex items-center text-center justify-center">
-                <img
+                <Image
                     className={`rounded-full bg-${bgColor}-600`}
                     src={srcFile}
                     alt="Person Avatar"

@@ -1,18 +1,16 @@
 import React, { useRef, useEffect } from 'react';
 import Hero from '@components/Hero';
-import PageLayout from '@components/layout/PageLayout';
 import Section from '@components/layout/Section';
-import SideBox from '@components/SideBox';
 import About from '@components/About';
 import Contact from '@components/Contact';
 import Experience from '@components/Experience';
 import Work from '@components/Work';
 
 export const App: React.FC = () => {
-    const sectionsRef = useRef<Array<HTMLElement>>([]),
+    const sectionsRef = useRef<Array<HTMLElement | null>>([]),
         executeScroll = (index: number) =>
             window.scrollTo({
-                top: sectionsRef.current[index].offsetTop - 2,
+                top: sectionsRef!.current[index]!.offsetTop - 2,
                 behavior: 'smooth'
             }),
         sections = [
