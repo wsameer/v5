@@ -1,5 +1,5 @@
-import React from "react";
-import Head from "next/head";
+import React from 'react';
+import Head from 'next/head';
 
 export const Helmet: React.FC = () => {
     return (
@@ -10,13 +10,17 @@ export const Helmet: React.FC = () => {
                 content="width=device-width, initial-scale=1"
             />
             <meta
-                name="description"
-                content="Web site created using Create Next App"
+                name="keywords"
+                content="Software Engineer,React Training,JavaScript Training,Fullstack Developer"
             />
-            <title>Sameer Waskar | Software Engineer</title>
+            <meta
+                name="description"
+                content="Sameer specializes in architecting exceptional digital experiences"
+            />
+            <title>Sameer Waskar</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
     );
 };
 
-Helmet.displayName = "Helmet";
+Helmet.displayName = 'Helmet';
