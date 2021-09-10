@@ -1,23 +1,18 @@
-import type { NextPage } from "next";
-import React from "react";
-import { Helmet } from "@components/common/Helmet";
+import type { NextPage } from 'next';
+import React from 'react';
+import { Helmet } from '@components/common/Helmet';
+import PageLayout from '@components/layout/PageLayout';
+import SideBox from '@components/SideBox';
+import App from '@components/App';
 
 const Home: NextPage = () => {
     return (
-        <div>
+        <div className="min-h-screen bg-gray-700 md:p-6">
             <Helmet />
-            <main className="flex h-screen">
-                <h1 className="m-auto text-8xl">
-                    Welcome to{" "}
-                    <a
-                        className="text-blue-700 hover:underline"
-                        href="https://nextjs.org"
-                    >
-                        {" "}
-                        Next.js!
-                    </a>
-                </h1>
-            </main>
+            <PageLayout>
+                <SideBox />
+                <App />
+            </PageLayout>
         </div>
     );
 };
