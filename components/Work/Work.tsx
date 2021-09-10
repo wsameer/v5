@@ -4,8 +4,8 @@ import React from 'react';
 import ProjectDetails from './ProjectDetails';
 import type { ProjectDescProps, ProjectLink } from './ProjectDetails/types';
 import Image from 'next/image';
-import p1 from '/img/octoprofile-plus.png';
-import p2 from '/img/reakt-dashboard-image.png';
+import p1 from '/public/img/octoprofile-plus.png';
+import p2 from '/public/img/reakt-dashboard-image.png';
 
 export const Work: React.FC = () => {
     const projectOne: ProjectDescProps = {
