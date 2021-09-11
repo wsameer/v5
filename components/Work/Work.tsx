@@ -39,7 +39,7 @@ export const Work: React.FC = () => {
                 }
                 rightContent={
                     <a
-                        href=""
+                        href="https://octoprofile-plus.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                         className="hidden md:block"
@@ -57,7 +57,7 @@ export const Work: React.FC = () => {
             <FeaturedProject
                 leftContent={
                     <a
-                        href=""
+                        href="https://reakt-dashboard.now.sh"
                         target="_blank"
                         rel="noreferrer"
                         className="hidden md:block"
