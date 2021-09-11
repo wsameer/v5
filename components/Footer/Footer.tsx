@@ -17,7 +17,12 @@ export const Footer: React.FC = () => {
                 </p>
             </div>
             <div>
-                <a href="https://nextjs.org/" className="w-24">
+                <a
+                    href="https://nextjs.org/"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="w-24"
+                >
                     <Image
                         width="100"
                         height="18"

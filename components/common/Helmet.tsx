@@ -17,6 +17,7 @@ export const Helmet: React.FC = () => {
                 name="description"
                 content="Sameer specializes in architecting exceptional digital experiences"
             />
+            <meta name="robots" content="index" />
             <title>Sameer Waskar</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
