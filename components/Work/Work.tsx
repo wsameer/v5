@@ -42,7 +42,7 @@ export const Work: React.FC = () => {
                         href="https://octoprofile-plus.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
-                        className="hidden md:block"
+                        className="hidden lg:block"
                     >
                         <Image
                             src={p1}
@@ -60,7 +60,7 @@ export const Work: React.FC = () => {
                         href="https://reakt-dashboard.now.sh"
                         target="_blank"
                         rel="noreferrer"
-                        className="hidden md:block"
+                        className="hidden lg:block"
                     >
                         <Image
                             src={p2}
