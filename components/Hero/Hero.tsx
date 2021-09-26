@@ -30,7 +30,7 @@ export const Hero: React.FC<Props> = ({ executeScroll }) => {
                 </Text>
                 <div className="flex">
                     <Button variant="solid" onClick={() => executeScroll(4)}>
-                        <span>Let&apos;s Talk</span>
+                        <span>Let&apos;s talk</span>
                     </Button>
                     <Button
                         variant="solid"
