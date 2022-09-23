@@ -9,10 +9,23 @@ export const Experience: React.FC = () => {
         {
             index: 1,
             header: {
-                tenure: 'Nov 2020 - Present',
-                position: 'Senior Frontend Developer',
+                tenure: 'Jul 2022 - Present',
+                position: 'Software Development Manager',
+                organization: 'Loblaw Digital',
+                logo: 'https://images.ctfassets.net/y9kx4mbdq4n2/Ww7BEm8vUHB8qt9StdCH2/22974a248cbed4dba92e8608f196c334/Favicon_White_Bg_2x.png?w=120&fm=png'
+            },
+            content: [
+                "Define the long-term vision for the Digital Pharmacy team, aligning with the company's strategic and tactical goals.",
+                'Cultivate a deep understanding of the portfolio of applications we utilize, along with their respective strengths and weaknesses, to provide solutions to existing and future challenges.'
+            ]
+        },
+        {
+            index: 2,
+            header: {
+                tenure: 'Nov 2020 - Jul 2022',
+                position: 'Associate Software Development Manager',
                 organization: 'Medly Software Systems LLP.',
-                logo: 'https://medly.com/favicon/apple-touch-icon.png'
+                logo: 'https://medly.com/favicon/favicon.ico'
             },
             content: [
                 'Managed end to end design and development from the frontend perspective of Product Delivery app using React, Redux and Test Driven Development.',
@@ -21,7 +34,7 @@ export const Experience: React.FC = () => {
             ]
         },
         {
-            index: 2,
+            index: 3,
             header: {
                 tenure: 'Aug 2020 - Nov 2020',
                 position: 'Head of Development, FE',
@@ -29,13 +42,12 @@ export const Experience: React.FC = () => {
                 logo: 'https://www.google.com/s2/favicons?sz=48&domain_url=koruux.com'
             },
             content: [
-                'Efficiently driven forward the development and delivery of web projects and products, ensuring delivery to the required timescales and specifications.',
-                'Guided the front-end team on technology strategy related to coding practices, continuous integration and automated deployment.',
-                'Carved a roadmap for implementing best software engineering practices for higher code quality.'
+                'Lead the engineering team to drive innovation in product development, while relentlessly improving performance, scalability, and maintainability.',
+                'Carved a roadmap for implementing best software engineering practices for higher code quality using tools like GitHub Actions, Jenkins and Sonarqube'
             ]
         },
         {
-            index: 3,
+            index: 4,
             header: {
                 tenure: 'Apr 2017 - Aug 2020',
                 position: 'Senior Software Engineer',
@@ -49,7 +61,7 @@ export const Experience: React.FC = () => {
             ]
         },
         {
-            index: 4,
+            index: 5,
             header: {
                 tenure: 'May 2015 - Apr 2017',
                 position: 'Programmer Analyst',
