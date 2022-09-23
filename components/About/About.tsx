@@ -8,20 +8,20 @@ export const About: React.FC = () => {
                 <span>About Me</span>
             </SectionTitle>
             <p className="mb-2 text-base md:text-lg">
-                I am a software engineer based out of{' '}
+                I am an <strong>Engineering Manager</strong> based out of{' '}
                 <a
-                    href="https://goo.gl/maps/8hnGQVDp1spYLyzP7"
+                    href="https://goo.gl/maps/kCHBvVyaqoryn5fS9"
                     rel="noreferrer"
                     target="_blank"
                     className="font-semibold text-purple-400"
                 >
-                    Pune, India
+                    Toronto, Canada
                 </a>
                 . With ruminations of using technology to make a positive impact
                 on a human life, I have invested over a{' '}
                 <span className="font-semibold text-purple-400">decade</span> in
                 learning and practicing software development to distil complex
-                technical ideas into user-friendly interfaces.
+                technical ideas into enterprise scale products.
             </p>
             <p className="mb-2 text-base md:text-lg">
                 Over the past{' '}
@@ -56,33 +56,24 @@ export const About: React.FC = () => {
                 domains.
             </p>
             <p className="mb-2 text-base md:text-lg">
-                These days, my main focus is to build platform, tools and
-                products at{' '}
-                <a
-                    href="https://www.medly.com/"
-                    rel="noreferrer"
-                    target="_blank"
-                    className="font-semibold text-purple-400"
-                >
-                    Medly
-                </a>{' '}
-                to digitalize their pharmacy experience.
-            </p>
-            <p className="mb-2 text-base md:text-lg">
                 Here are a few technologies I&apos;ve been working with
                 recently:
             </p>
             <div>
                 <ul className="grid grid-cols-2 list-disc list-inside">
                     <li className="text-sm md:text-base my-2">
-                        JavaScript (ES6+)
+                        JavaScript, TypeScript
                     </li>
                     <li className="text-sm md:text-base my-2">React, Redux</li>
                     <li className="text-sm md:text-base my-2">
-                        Node.js, Express
+                        Node.js, Kotlin
                     </li>
-                    <li className="text-sm md:text-base my-2">NextJS</li>
-                    <li className="text-sm md:text-base my-2">Angular</li>
+                    <li className="text-sm md:text-base my-2">
+                        AWS, Google Cloud Platform
+                    </li>
+                    <li className="text-sm md:text-base my-2">
+                        NextJS, Angular
+                    </li>
                     <li className="text-sm md:text-base my-2">
                         Styled Components
                     </li>
