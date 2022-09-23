@@ -7,26 +7,25 @@ export const Hero: React.FC<Props> = ({ executeScroll }) => {
     return (
         <div className="mx-auto flex px-6 py-12 md:px-10 md:flex-row flex-col items-start">
             <div className="md:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-left">
-                <Text className="text-base lg:text-xl">Hello! I&apos;m</Text>
+                <Text className="text-base lg:text-xl">Hello!👋 I&apos;m</Text>
                 <h1 className="title-font text-6xl lg:text-7xl mt-3 md:mt-2 font-bold text-white">
                     Sameer.
                 </h1>
                 <h1 className="title-font text-5xl md:text-6xl lg:text-7xl mt-2 mb-6 font-bold text-gray-400">
-                    I build things for the web.
+                    I empower teams and build products
                 </h1>
                 <Text className="text-base mb-6 leading-relaxed lg:w-3/5">
-                    I&apos;m a software engineer who specializes in building
-                    exceptional digital experiences. Currently, I&apos;m a Senior
-                    Software Engineer at{' '}
+                    Currently juggling people management, project management and
+                    technical knowledge at{' '}
                     <a
-                        href="https://www.medly.com"
+                        href="https://www.loblawdigital.co/"
                         rel="noreferrer"
                         target="_blank"
                         className="text-purple-400"
                     >
-                        Medly
+                        Loblaw Digital
                     </a>{' '}
-                    focused on building a full-service, digital pharmacy.
+                    to deliver the right product, the right way.
                 </Text>
                 <div className="flex">
                     <Button variant="solid" onClick={() => executeScroll(4)}>
