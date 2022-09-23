@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Code, Heart } from 'react-feather';
 import Image from 'next/image';
 import buildWithNext from '/public/img/build-with-nextjs.png';
 
 export const Footer: React.FC = () => {
+    const [currentYear, setCurrentYear] = useState(null);
+    useEffect(() => {
+        const year = new Date().getFullYear();
+        setCurrentYear(year);
+    }, []);
+
     return (
         <footer className="flex flex-row justify-between w-full">
             <div>
@@ -12,7 +18,7 @@ export const Footer: React.FC = () => {
                     <small className="text-gray-300">&nbsp;with&nbsp;</small>
                     <Heart className="text-red-600" size={18} />
                     <small className="text-gray-300">
-                        &nbsp;by Sameer Waskar © 2021.
+                        &nbsp;by Sameer Waskar © {currentYear}.
                     </small>
                 </p>
             </div>
