@@ -22,7 +22,7 @@ export const SideBox: React.FC = () => {
                     <Socials />
                 </div>
             </div>
-            <div className="pb-4 mt-4 md:p-4 md:mt-4 mb-4 md:px-4 w-full md:w-72 lg:w-80 bg-gray-800 shadow-lg text-center">
+            <div className="pb-4 md:mt-4 md:p-4 md:mt-4 md:mb-4 md:px-4 w-full md:w-72 lg:w-80 bg-gray-800 shadow-lg text-center">
                 <div className="inline-flex">
                     <MapPin className="mt-2 text-gray-300" />
                     <p className="mt-2 mx-2 text-gray-300">Toronto, Canada</p>
