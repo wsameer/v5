@@ -25,7 +25,7 @@ export const About: React.FC = () => {
             </p>
             <p className="mb-2 text-base md:text-lg">
                 Over the past{' '}
-                <span className="font-semibold text-purple-400">7 years</span>,
+                <span className="font-semibold text-purple-400">8 years</span>,
                 I have had the privilege of working in{' '}
                 <a
                     href="https://vizitechsolutions.com"
