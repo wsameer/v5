@@ -1,5 +1,4 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
-const colors = require('tailwindcss/colors');
 
 module.exports = {
     content: [
@@ -22,17 +21,7 @@ module.exports = {
             '7xl': '0 0 6px 3px rgb(30 30 31 / 59%)',
             '8xl': '0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%)',
             none: 'none'
-        },
-        colors: {
-            purple: colors.violet,
-            gray: colors.gray
         }
     },
     plugins: []
-    // variants: {
-    //     extend: {
-    //         fontSmoothing: ['hover', 'focus'],
-    //         boxShadow: ['responsive', 'hover', 'focus', 'active']
-    //     }
-    // }
 };
