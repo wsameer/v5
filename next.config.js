@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-
-module.exports = {
+const nextConfig = {
+    basePath: '/v5',
     reactStrictMode: true,
     images: {
         domains: [
@@ -15,3 +15,4 @@ module.exports = {
         defaultLocale: 'en'
     }
 };
+module.exports = nextConfig;
